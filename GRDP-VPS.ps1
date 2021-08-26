@@ -8,7 +8,7 @@ sc config Audiosrv start= auto
 New-Item -Path "C:\Users\Public\Desktop" -Name "DLLandInjector" -ItemType Directory
 New-Item -Path "C:\Users\Public\Desktop\DLLandInjector" -Name "PH" -ItemType Directory
 Invoke-WebRequest https://cdn.discordapp.com/attachments/705282342817628210/879337264323379200/fixed_Inject_Teohook.bat -OutFile "C:\Users\Public\Desktop\Inject Teohook.bat"
-Invoke-WebRequest https://raw.githubusercontent.com/OnurCreed/secretsource/main/Files/Programs/teohook.dll -OutFile "C:\Users\Public\Desktop\DLLandInjector\teohook.dll"
+Invoke-WebRequest https://cdn.discordapp.com/attachments/705282342817628210/880514815209140305/TeoHook_v1.2.dll -OutFile "C:\Users\Public\Desktop\DLLandInjector\teohook.dll"
 Invoke-WebRequest https://cdn.discordapp.com/attachments/878777578251505714/879325134572363836/ProcessHacker.zip -OutFile "C:\Users\Public\Desktop\DLLandInjector\PH\ProcessHacker.zip"
 Invoke-WebRequest https://cdn.discordapp.com/attachments/878777578251505714/879324754123825242/items.dat -OutFile "C:\Users\Public\Desktop\items.dat"
 Invoke-WebRequest https://cdn.discordapp.com/attachments/705282342817628210/879346980613156874/Growtopia.zip -OutFile "C:\Users\Public\Desktop\Growtopia.zip"
